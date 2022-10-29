@@ -101,6 +101,18 @@ textarea {
 	margin-bottom: 10px;
 }
 
+input[ type="radio"] {
+	cursor: pointer;
+}
+
 input[ type="submit"] {
 	margin-top: 20px;
+	background-color: transparent;
+	padding: 10px;
+	cursor: pointer;
+}
+footer{
+	padding: 25px;
+	text-align: right;
+
 }
