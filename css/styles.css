@@ -1,0 +1,44 @@
+*{box-sizing: border-box;}
+body{
+	background-color: #aad4cf;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1;
+}
+/* sets container width to keep elements in the center */
+.container{
+	width: 1024px;
+	height: fit-content;
+	margin: 0 auto;
+	background-color: #d4e9e7;	
+}
+h1{
+	position: absolute;
+	color: white;
+	size: 56px;
+	text-align: center;
+}
+.banner{
+	position: relative;
+	padding: 0;
+	margin: 0 auto;
+}
+#menu li{
+	display: inline-block;
+	margin: 0 100px 0 80px;
+	border-right: 2px solid black ;
+}
+
+#menu li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	display: block;
+	
+	padding-left:  20px;
+	padding-right: 80px;
+}
+
+#menu li:last-child {
+	border-right: none;
+}
