@@ -55,10 +55,15 @@ h2{
 #star {
     width: 250px;
     height: 250px;
+	padding-left: 10px;
 }
 
 .clearfix::after {
 	content:"";
 	display:block;
 	clear: both;
+}
+
+p{
+	padding-left: 10px;
 }
