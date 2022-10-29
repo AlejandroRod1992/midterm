@@ -44,3 +44,10 @@ h1{
 #menu li:last-child {
 	border-right: none;
 }
+
+h2{
+    font-size: 25px;
+    padding-left: 10px;
+    font-weight: bold;
+    
+}
