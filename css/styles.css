@@ -14,8 +14,10 @@ body{
 h1{
 	position: absolute;
 	color: white;
-	size: 56px;
+	font-size: 56px;
 	text-align: center;
+    width: 100%;
+    top: 50%;
 }
 .banner{
 	position: relative;
